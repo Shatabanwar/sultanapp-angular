@@ -1,0 +1,69 @@
+
+<div id="card">
+    <div id="card-content">
+      <div class="card-image">
+        <h2>Sultan</h2>
+        
+      </div>
+
+      
+      <form (ngSubmit) = "onSubmit()" class="form">
+       
+       
+        
+        <div class="inner-addon left-addon">
+          <i class="bi bi-envelope glyphicon glyphicon-user green"></i>
+          <input class="form-control py-2 rounded-pill mr-1 pr-5 form-rounded" required [(ngModel)] = "credentials.email" type="email" name="email" placeholder="Email" id="example-search-input">
+              
+       </div>
+
+       <div class="inner-addon left-addon password">
+        <i class="bi bi-lock glyphicon glyphicon-user green" ></i>
+        <i class="bi-eye-slash glyphicon glyphicon-user right-icon green" id="togglePassword"></i>    
+        <input class="form-control py-2 rounded-pill mr-1 pr-5 form-rounded" type="password" required="true" name="password" [(ngModel)] = "credentials.password" placeholder="Password" id="password">
+         
+     </div>
+    
+       
+  
+         
+       <div class="login">
+        <button id="submit-btn" routerLink = "/login" type="submit" name="submit"  >Sign In</button>
+        
+      </div>
+      <a href="#">
+        <legend id="forgot-pass">Forgot password?</legend>
+      </a>
+      </form>
+
+      
+      <div class="text-bottom">
+        <p class="txt-style">Or</p>
+      </div>
+
+      <div class="google-button">
+
+        <button mat-button id="account-button">
+          <i class="bi bi-google pull-left" style="padding-left: 5px;"></i>
+        Sign in with Google
+      </button>
+</div>
+      
+  
+  <div class="text-account">
+    <p class="txt-style">Don't have account yet?
+  <a routerLink="/register" style="color:#2EBBB3;">Sign up</a>
+</div>
+      
+<div class="guest">
+  <a routerLink="/dashboard" class="txt-style" style="color:#2EBBB3;">Continue as Guest</a>
+</div>
+
+
+    </div>
+  </div>
+
+  
+
+
+  

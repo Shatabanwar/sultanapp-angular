@@ -1,1 +1,89 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
+
+body {
+    background: -webkit-linear-gradient(180deg, #1B67B3 0%, #2EBBB3 100%);
+   
+  }
+  
+  @font-face {
+    font-family: dosis;
+    src: url(assets/Dosis-Regular.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: ABeeZee;
+    src: url(assets/ABeeZee-Italic.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: ABeeZee-Regular;
+    src: url(assets/ABeeZee-Regular.ttf) format("truetype");
+  }
+  
+  
+  
+  
+  
+  
+  /* Frontpage  
+
+position: relative;
+width: 360px;
+height: 640px;
+
+background: linear-gradient(180deg, #1B67B3 0%, #2EBBB3 100%);
+
+
+ Sultan 
+
+position: absolute;
+width: 173px;
+height: 50px;
+left: 94px;
+top: 329px;
+
+font-family: 'Dosis';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 51px;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+
+
+/* 7140924_hat_sultan_turban_indian_icon (8) 1 
+
+position: absolute;
+width: 100px;
+height: 100px;
+left: 130px;
+top: 229px;
+
+background: url(7140924_hat_sultan_turban_indian_icon (8));
+
+
+/* Category 
+
+position: absolute;
+width: 67px;
+height: 22px;
+left: -122px;
+top: 782px;
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #524B4B;
+
+*/

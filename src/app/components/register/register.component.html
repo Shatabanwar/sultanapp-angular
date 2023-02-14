@@ -1,0 +1,61 @@
+<div id="card">
+  <div id="card-content">
+    <div class="card-image">
+      <h2>Sultan</h2>
+
+    </div>
+
+    <div class="text">
+      <p class="txt-style">Create New Account</p>
+    </div>
+    <form (ngSubmit)="onSubmit()" class="form" ngNativeValidate>
+
+
+
+      <div class="inner-addon left-addon">
+        <i class="bi bi-envelope glyphicon glyphicon-user green"></i>
+        <input class="form-control py-2 rounded-pill mr-1 pr-5 form-rounded" required="true"
+          [(ngModel)]="credentials.email" name="email" type="email" placeholder="Email" id="example-search-input">
+
+      </div>
+
+      <div class="inner-addon left-addon" style="padding-top:20px ;">
+        <i class="bi bi-telephone glyphicon glyphicon-user green"></i>
+        <input class="form-control py-2 rounded-pill mr-1 pr-5 form-rounded" required="true" name="phone" type="tel"
+          placeholder="Phone" id="example-search-input">
+
+      </div>
+
+      <div class="inner-addon left-addon password">
+        <i class="bi bi-lock  bi bi-border glyphicon glyphicon-user green"></i>
+        <i class="bi bi-eye-slash glyphicon glyphicon-user right-icon green" id="show-password"></i>
+        <input class="form-control py-2 rounded-pill mr-1 pr-5 form-rounded" name="password"
+          [(ngModel)]="credentials.password" pattern="[a-zA-Z0-9]+ .*[0-9].*" minlength="6" type="password"
+          placeholder="Create Password" id="password" required="true">
+
+      </div>
+
+      <div class="inner-addon left-addon password">
+        <i class="bi bi-lock glyphicon glyphicon-user green"></i>
+        <i class="bi bi-eye-slash glyphicon glyphicon-user right-icon green" id="show-password"></i>
+        <input class="form-control py-2 rounded-pill mr-1 pr-5 form-rounded" required="true" type="password"
+          [(ngModel)]="credentials.repeatPassword" name="Repeat-password" placeholder="Retype Password" id="password">
+
+      </div>
+
+
+
+
+
+
+      <div class="login">
+        <input id="submit-btn" type="submit" name="submit" value="Sign Up" />
+
+      </div>
+    </form>
+
+    <div class="text-bottom">
+      <p class="txt-style">Already have an account?
+        <a routerLink="/login" style="color: #2EBBB3;">Sign in</a>
+      </p>
+    </div>

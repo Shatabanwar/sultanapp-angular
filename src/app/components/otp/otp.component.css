@@ -1,0 +1,271 @@
+a {
+  text-decoration: none;
+}
+
+
+h2 {
+
+
+  width: 173px;
+  height: 50px;
+  left: 84px;
+  top: 245px;
+
+
+
+  font-family: 'dosis';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 51px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  background: linear-gradient(180deg, #1B67B3 0%, #2EBBB3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  text-fill-color: transparent;
+}
+
+
+
+
+#card {
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 650px;
+  margin: 2rem auto 8.1rem auto;
+  width: 400px;
+}
+
+#card-content {
+  padding: 12px 44px;
+}
+
+
+#submit-btn {
+  width: 296px;
+  height: 50px;
+  left: 32px;
+  top: 556px;
+  font-family: 'ABeeZee';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #FFFFFF;
+  background: linear-gradient(0deg, #2EBBB3, #2EBBB3);
+  border-radius: 30px;
+
+  border-color: none;
+}
+
+
+
+
+.form {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* my stuff here */
+
+.container {
+
+  text-align: center;
+  padding-top: 50px;
+  margin-left: 50px;
+
+
+}
+
+.btn-container {
+
+  text-align: center;
+  padding-top: 30px;
+
+
+
+}
+
+
+
+
+
+
+
+.txt-style {
+
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+
+  color: #0F3735;
+}
+
+.reset-txt {
+
+  margin-right: 20px;
+  text-align: center;
+
+
+}
+
+.inner-addon {
+  position: relative;
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon {
+  left: 0px;
+}
+
+.right-addon .glyphicon {
+  right: 0px;
+}
+
+/* add padding  */
+.left-addon input {
+  padding-left: 30px;
+}
+
+.right-addon input {
+  padding-right: 30px;
+}
+
+.green {
+  color: #5CBCB6;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'ABeeZee';
+  font-size: 13px;
+}
+
+:-moz-placeholder {
+  font-family: 'ABeeZee';
+  font-size: 13px;
+
+}
+
+::-moz-placeholder {
+  font-family: 'ABeeZee';
+  font-size: 13px;
+
+}
+
+:-ms-input-placeholder {
+  font-family: 'ABeeZee';
+  font-size: 13px;
+
+}
+
+.otp-image {
+
+  margin-top: 30px;
+  text-align: center;
+}
+
+#otp-logo {
+
+  width: 140px;
+  height: 128px;
+  left: 117px;
+  top: 214px;
+}
+
+.otp-txt {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#otp-txt-style {
+
+  width: 268px;
+  height: 19px;
+
+
+
+  top: 390px;
+
+  font-family: 'ABeeZee';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #000000;
+}
+
+
+.wrapper {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.wrapper input {
+
+  width: 41px;
+  height: 41px;
+  left: 78px;
+  top: 435px;
+
+  text-align: center;
+  align-items: center;
+  margin: 10px;
+  background: #D9D9D9;
+  border-radius: 5px;
+}
+
+.bottom-text {
+  align-items: center;
+  margin-top: 30px;
+
+  text-align: center;
+}
+
+.first-line {
+
+
+
+  font-family: 'ABeeZee';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.second-line {
+  font-family: 'ABeeZee';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #2EBBB3;
+}

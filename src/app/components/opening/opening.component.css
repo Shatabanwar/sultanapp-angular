@@ -1,0 +1,164 @@
+  h2{
+
+    
+width: 173px;
+height: 50px;
+left: 84px;
+top: 245px;
+margin-bottom: 50px;
+
+
+font-family: 'dosis';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 51px;
+text-align: center;
+letter-spacing: -0.02em;
+
+background: linear-gradient(180deg, #1B67B3 0%, #2EBBB3 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+text-fill-color: transparent;
+  }
+
+
+
+
+  #card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 650px;
+    margin: 2rem auto 8.1rem auto;
+    width: 400px;
+  }
+  #card-content {
+    padding: 12px 44px;
+  }
+ 
+
+  #submit-btn {
+    width: 296px;
+    height: 50px;
+    left: 32px;
+    top: 556px;
+    font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  
+  text-align: center;
+  letter-spacing: -0.02em;
+  
+  color: #FFFFFF;
+      
+      align-items: center;
+  background: linear-gradient(0deg, #2EBBB3, #2EBBB3);
+  border-radius: 30px;
+  
+  border-color: none;
+  }
+
+
+  
+  
+  .form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  /* my stuff here */
+
+   .container{
+     
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 50px;
+    
+    
+  }
+
+  .btn-container{
+     
+    text-align: center;
+    padding-top: 166px;
+    
+    
+  } 
+
+  
+  
+
+
+
+
+ .txt-style{
+
+  font-family: 'ABeeZee';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 15px;
+text-align: center;
+letter-spacing: -0.02em;
+
+
+color: #0F3735;
+}
+
+.reset-txt{
+
+  margin-right: 20px;
+  text-align: center;
+
+
+}
+
+.inner-addon { 
+  position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+position: absolute;
+padding: 10px;
+pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.green{
+  color: #5CBCB6;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'ABeeZee';
+  font-size: 13px;
+}
+:-moz-placeholder {
+  font-family: 'ABeeZee';
+  font-size: 13px;
+  
+}
+::-moz-placeholder {
+  font-family: 'ABeeZee';
+  font-size: 13px;
+  
+}
+:-ms-input-placeholder {  
+  font-family: 'ABeeZee';
+  font-size: 13px;
+ 
+}
