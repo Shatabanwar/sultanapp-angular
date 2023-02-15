@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class NetworkingComponent {
 
+  onSubmit(){
+
+    window.location.href = 'https://wa.me/6282114803327';
+  }
+
 }
