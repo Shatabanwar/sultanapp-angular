@@ -17,10 +17,32 @@ export class LoginComponent implements OnInit {
   constructor(private router:Router) { }
 
   ngOnInit(): void {
+
+      // @ts-ignore
+  google.accounts.id.initialize({
+    client_id: "http://677611948157-i1suneqfh61ohfvur5t4redmtlvle6rn.apps.googleusercontent.com",
+    callback: this.handleCredentialResponse.bind(this),
+    auto_select: false,
+    cancel_on_tap_outside: true,
+
+  });
+  // @ts-ignore
+  google.accounts.id.renderButton(
+  // @ts-ignore
+  document.getElementById("google-button"),
+    { theme: "outline", size: "large", width: "100%" }
+  );
+  // @ts-ignore
+  google.accounts.id.prompt((notification: PromptMomentNotification) => {});
   }
 
   visible:boolean = true;
   changetype:boolean =true;
+
+  async handleCredentialResponse(response: any) {
+    // Here will be your response from Google.
+    console.log(response);
+  }
   
 
   viewpass(){
