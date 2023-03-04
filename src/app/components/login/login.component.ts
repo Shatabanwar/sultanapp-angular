@@ -20,7 +20,7 @@ export class LoginComponent implements OnInit {
 
       // @ts-ignore
   google.accounts.id.initialize({
-    client_id: "677611948157-i1suneqfh61ohfvur5t4redmtlvle6rn.apps.googleusercontent.com",
+    client_id: "998494803639-hlapf71ffqqp0hm2cikqaicjlhmarsc5.apps.googleusercontent.com",
     callback: this.handleCredentialResponse.bind(this),
     auto_select: false,
     cancel_on_tap_outside: true,
